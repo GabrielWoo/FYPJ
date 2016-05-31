@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'devise'
-
+gem 'font-awesome-sass'
 gem 'mongoid'
 gem 'bson_ext'
 
