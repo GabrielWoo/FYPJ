@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'devise'
 
 gem 'mongoid'
+gem 'bson_ext'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
