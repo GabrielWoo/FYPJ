@@ -5,6 +5,7 @@ gem 'devise'
 gem 'font-awesome-sass'
 gem 'mongoid'
 gem 'bson_ext'
+gem 'bootstrap-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

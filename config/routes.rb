@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+
+  root 'pages#SignIn'
+
+get "howItWorks" => 'pages#HowItWorks', as: :howItWorks
+get "employees" => 'pages#Employees', as: :employees
+get "signUp" => 'pages#SignUp', as: :signUp
+
+  
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
