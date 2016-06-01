@@ -14,10 +14,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class = 'active'><%= link_to "SignIn", root_path %></li>
-        <li><%= link_to "Sign Up", signUp_path%></li>
-        <li><%= link_to "How It Works", howItWorks_path%></li>
-        <li><%= link_to "Employees", employees_path%></li>
+        <li class = "<%= yield(:SignIn)%>"><%= link_to "SignIn", root_path %></li>
+        <li class = "<%= yield(:SignUp)%>"><%= link_to "Sign Up", signUp_path%></li>
+        <li class = "<%= yield(:HowItWorks)%>"><%= link_to "How It Works", howItWorks_path%></li>
+        <li class = "<%= yield(:Employees)%>"><%= link_to "Employees", employees_path%></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
